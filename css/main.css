@@ -94,6 +94,10 @@ footer {
   justify-content: center;
   align-items: center;
 }
+header[] header .content-wrapper {
+}
+header nav {
+}
 
 /* ==========================================================================
    Helper classes
