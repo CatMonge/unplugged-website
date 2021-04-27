@@ -94,11 +94,43 @@ footer {
   justify-content: center;
   align-items: center;
 }
-header[] header .content-wrapper {
+header .content-wrapper {
 }
 header nav {
 }
+/** -------- Main ----- **/
 
+.hero-area {
+}
+section .content-wrapper {
+}
+aside {
+}
+.form-description {
+}
+.signup-form {
+}
+.features .content-wrapper {
+}
+.fontawesome-icon {
+}
+.features-items-description {
+}
+/**------Reviews------**/
+
+.reviews .content-wrapper {
+}
+
+/**---- Footer ---- **/
+
+footer .content-wrapper {
+}
+footer .contact {
+}
+.social {
+}
+.copyright {
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
