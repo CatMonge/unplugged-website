@@ -109,6 +109,9 @@ header nav {
 section .content-wrapper {
 }
 aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .form-description {
 }
@@ -127,6 +130,10 @@ aside {
 /**------Reviews------**/
 
 .reviews .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 /**---- Footer ---- **/
