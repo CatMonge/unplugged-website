@@ -93,7 +93,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
 }
 header .content-wrapper {
   display: flex;
