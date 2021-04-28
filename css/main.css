@@ -119,7 +119,7 @@ footer .contact {
 }
 .copyright {
 }
-/** -------- Mobile Styles- Homepage ----- **/
+/** ================ Mobile Styles- Homepage ====================**/
 
 .hero-area {
   display: flex;
@@ -159,6 +159,7 @@ aside {
   align-items: center;
   flex-flow: row wrap;
 }
+/** ====================About Page====================== **/
 
 /* ==========================================================================
    Helper classes
