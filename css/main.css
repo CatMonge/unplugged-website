@@ -96,13 +96,28 @@ footer {
   flex-flow: row wrap;
 }
 header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 header nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-flow: row wrap;
 }
-/** -------- Main ----- **/
+header nav ul {
+}
+footer .content-wrapper {
+}
+footer .contact {
+}
+.social {
+}
+.copyright {
+}
+/** -------- Mobile Styles- Homepage ----- **/
 
 .hero-area {
 }
@@ -136,16 +151,6 @@ aside {
   flex-flow: row wrap;
 }
 
-/**---- Footer ---- **/
-
-footer .content-wrapper {
-}
-footer .contact {
-}
-.social {
-}
-.copyright {
-}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
