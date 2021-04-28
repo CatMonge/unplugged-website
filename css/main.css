@@ -131,6 +131,10 @@ aside {
 .form-description {
 }
 .signup-form {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-flow: column wrap;
 }
 .features .content-wrapper {
   display: flex;
