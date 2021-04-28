@@ -122,6 +122,9 @@ footer .contact {
 /** -------- Mobile Styles- Homepage ----- **/
 
 .hero-area {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 section .content-wrapper {
 }
