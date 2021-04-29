@@ -162,8 +162,16 @@ aside {
 /** ====================About Page====================== **/
 
 .mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 .contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 /** =================== FAQ Page ======================= **/
