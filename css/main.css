@@ -347,7 +347,7 @@ section .content-wrapper {
   }
 
   aside .content-wrapper .form-description .signup-form {
-    width: 640px;
+    width: 40%;
     margin: 0;
   }
 
