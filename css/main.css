@@ -111,6 +111,10 @@ header nav {
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width: 100%;
+}
+header-divider {
+  width: 100%;
 }
 footer .content-wrapper {
   width: 55%;
@@ -154,6 +158,7 @@ aside {
 .fontawesome-icon {
 }
 .features-items {
+  width: 54%;
 }
 /**------Reviews------**/
 
@@ -162,6 +167,9 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+reviews h3 {
+  width: 48%;
 }
 /** ====================About Page====================== **/
 
