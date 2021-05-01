@@ -308,6 +308,35 @@ section .content-wrapper {
 
 @media only screen and (min-width: 768px) {
   /* Tablet styles here */
+  /* General Styles */
+  .content-wrapper {
+    width: 640px;
+    margin: 100px 0;
+  }
+  /* Header */
+  header .content-wrapper {
+    width: ;
+  }
+
+  header nav {
+    width: ;
+  }
+
+  header nav ul {
+  }
+
+  .header-divider {
+    display: none;
+  }
+  /* Hero Area */
+
+  /* Aside */
+
+  /*Features */
+
+  /* Reviews */
+
+  /* Footer */
 }
 @media only screen and (min-width: 1200px) {
   /* Desktop styles here */
