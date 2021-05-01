@@ -160,11 +160,16 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
+}
+features h2 {
+  margin-bottom: 65px;
 }
 .fontawesome-icon {
 }
 .features-items {
   width: 54%;
+  margin: 25px 70px;
 }
 /**------Reviews------**/
 
