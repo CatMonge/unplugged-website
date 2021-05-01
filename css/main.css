@@ -414,6 +414,8 @@ section .content-wrapper {
   width: 80%;
 }
 .contact-information {
+  display: flex;
+  justify-content: space-around;
 }
 
 /** ====== FAQ PAGE ====== **/
