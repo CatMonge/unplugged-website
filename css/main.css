@@ -395,6 +395,9 @@ section .content-wrapper {
 
   footer .copyright {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 /** ======== ABOUT PAGE ======= **/
