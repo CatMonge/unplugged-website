@@ -315,7 +315,7 @@ section .content-wrapper {
   }
   /* Header */
   header .content-wrapper {
-    width: ;
+    width: 100%;
   }
 
   header nav {
@@ -343,9 +343,39 @@ section .content-wrapper {
 
   /*Features */
 
+  .features article {
+  }
+
+  .features .features-items {
+    width: ;
+  }
+
   /* Reviews */
 
+  .reviews article {
+  }
+
+  .reviews article div {
+    width: ;
+  }
+
   /* Footer */
+
+  footer .content-wrapper {
+    width: ;
+    margin: 100px 0;
+  }
+
+  .footer-content {
+  }
+
+  footer .contact {
+    margin-bottom: 0;
+  }
+
+  footer .copyright {
+    width: ;
+  }
 }
 @media only screen and (min-width: 1200px) {
   /* Desktop styles here */
