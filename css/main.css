@@ -397,6 +397,20 @@ section .content-wrapper {
     width: 100%;
   }
 }
+/** ======== ABOUT PAGE ======= **/
+
+.mission-content {
+}
+
+.mission-content p {
+}
+
+.contact-section .content-wrapper h2 {
+}
+.general-info .chat {
+}
+
+/** ====== FAQ PAGE ====== **/
 @media only screen and (min-width: 1200px) {
   /* Desktop styles here */
 }
