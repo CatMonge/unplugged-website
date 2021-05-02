@@ -217,6 +217,13 @@ features p {
 reviews h3 {
   width: 48%;
 }
+
+article img {
+  width: 50%;
+}
+
+/***** Possibly increase percentage when all mobile values are correct ******/
+
 /** ====================About Page====================== **/
 
 .mission {
