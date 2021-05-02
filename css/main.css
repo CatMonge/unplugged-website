@@ -401,12 +401,15 @@ section .content-wrapper {
   }
 }
 /** ======== ABOUT PAGE ======= **/
-
+.mission {
+  background-color: aqua;
+  margin: 10px 0;
+}
 .mission-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /*padding-top: 20px;*/
+  padding-top: 20px;
 }
 
 .mission-content p {
