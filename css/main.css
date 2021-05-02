@@ -151,6 +151,10 @@ aside {
   align-items: center;
   flex-flow: row wrap;
 }
+aside .content-wrapper {
+  background-color: #527158;
+}
+
 .form-description {
 }
 .signup-form {
