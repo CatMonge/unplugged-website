@@ -407,38 +407,15 @@ section .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
 }
-/*
-.container {
+.contact-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-X
-.mission-content p {
-  width: 45%;
-}
-
-.contact-section .content-wrapper h2 {
-  width: 80%;
-}
-.contact-information {
-  display: flex;
-  justify-content: space-around;
-}
-*/
-.contact-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
-}
-
-.contact-content p {
-  margin: 0;
-}
 /** ====== FAQ PAGE ====== **/
 
-.faqs .content-wrapper {
+.content-wrapper {
+  
 }
 .faq-content {
 }
