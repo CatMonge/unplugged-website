@@ -94,9 +94,12 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #202322;
+  color: ;
 }
 header {
   padding: 15px 0;
+  color: #e2e3ed;
 }
 header .content-wrapper {
   display: flex;
@@ -122,9 +125,11 @@ header-divider {
   height: 1px;
   margin: 10px 0 20px 0;
 }
+
 footer .content-wrapper {
   width: 55%;
   margin: 50px 0;
+  color: #d2d3d3;
 }
 footer .contact {
 }
@@ -143,25 +148,39 @@ footer p {
   justify-content: center;
   flex-flow: row wrap;
 }
+
+.hero-area {
+  background-image: url(../img/header-image.jpg);
+  color: #e2e3ed;
+}
+
 section .content-wrapper {
 }
+
 aside {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
+
 aside .content-wrapper {
   background-color: #527158;
+  color: #e2e3ed;
 }
 
 .form-description {
 }
+
 .signup-form {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   flex-flow: column wrap;
+}
+.features {
+  background-image: url(../img/darken-bkgd-image.jpg);
+  color: #e2e3ed;
 }
 .features .content-wrapper {
   display: flex;
@@ -173,11 +192,14 @@ aside .content-wrapper {
 features h2 {
   margin-bottom: 65px;
 }
+
 features p {
   margin: 0;
 }
+
 .fontawesome-icon {
 }
+
 .features-items {
   width: 54%;
   margin: 25px 70px;
@@ -189,6 +211,8 @@ features p {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
+  color: #bdc3c9;
 }
 reviews h3 {
   width: 48%;
