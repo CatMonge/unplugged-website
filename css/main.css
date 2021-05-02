@@ -402,14 +402,15 @@ section .content-wrapper {
 }
 /** ======== ABOUT PAGE ======= **/
 .mission {
-  background-color: aqua;
-  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
-.mission-content {
+.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 20px;
 }
 
 .mission-content p {
