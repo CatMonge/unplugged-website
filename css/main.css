@@ -152,7 +152,16 @@ footer .social-icons {
   align-items: center;
 }
 
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-flow: column wrap;
+  text-align: center;
+}
+
 .copyright {
+  color: #d2d3d3;
   margin: 20px 0;
 }
 /** ================ Mobile Styles- Homepage ====================**/
@@ -198,6 +207,7 @@ aside .content-wrapper {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  text-align: center;
 }
 
 .features article {
