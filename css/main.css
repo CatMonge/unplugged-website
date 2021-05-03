@@ -375,6 +375,18 @@ section .content-wrapper {
   .content-wrapper {
     width: 640px;
   }
+
+  header {
+    justify-content: flex-start;
+  }
+
+  header .content-wrapper {
+    justify-content: flex-start;
+  }
+
+  header nav ul {
+    justify-content: space-around;
+  }
 }
 
 /** Desktop styles here **/
