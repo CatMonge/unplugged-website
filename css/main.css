@@ -205,11 +205,11 @@ aside .content-wrapper {
   margin: 30px 0;
 }
 
-features h2 {
+.features h2 {
   margin-bottom: 65px;
 }
 
-features p {
+.features p {
   margin: 0;
 }
 
