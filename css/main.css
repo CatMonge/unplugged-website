@@ -120,10 +120,14 @@ header nav ul {
   justify-content: space-around;
   width: 100%;
 }
-header-divider {
+.header-divider {
   width: 100%;
   height: 1px;
   margin: 10px 0 20px 0;
+}
+
+footer {
+  flex-direction: column;
 }
 
 footer .content-wrapper {
@@ -131,13 +135,20 @@ footer .content-wrapper {
   margin: 50px 0;
   color: #d2d3d3;
 }
+
 footer .contact {
+  margin-bottom: 50px;
 }
+
 footer p {
   margin: 0;
 }
-.social {
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
+
 .copyright {
   margin: 20px 0;
 }
@@ -181,14 +192,16 @@ aside .content-wrapper {
 .features {
   background-image: url(../img/darken-bkgd-image.jpg);
   color: #e2e3ed;
-}
-.features .content-wrapper {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
-  margin: 0;
 }
+
+.features article {
+  width: 63%;
+  margin: 30px 0;
+}
+
 features h2 {
   margin-bottom: 65px;
 }
@@ -197,12 +210,11 @@ features p {
   margin: 0;
 }
 
-.fontawesome-icon {
-}
-
-.features-items {
-  width: 54%;
-  margin: 25px 70px;
+.features .features-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 /**------Reviews------**/
 
