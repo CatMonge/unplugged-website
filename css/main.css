@@ -218,7 +218,7 @@ features p {
 }
 /**------Reviews------**/
 
-.reviews .content-wrapper {
+.reviews {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -226,8 +226,12 @@ features p {
   background-color: #2a423a;
   color: #bdc3c9;
 }
-reviews h3 {
+.reviews h2 {
+  margin-bottom: 40px;
+}
+.reviews h3 {
   width: 48%;
+  margin: 20px 0;
 }
 
 article img {
