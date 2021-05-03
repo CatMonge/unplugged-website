@@ -372,6 +372,9 @@ section .content-wrapper {
 
 /** Tablet styles here **/
 @media only screen and (min-width: 768px) {
+  .content-wrapper {
+    width: 640px;
+  }
 }
 
 /** Desktop styles here **/
