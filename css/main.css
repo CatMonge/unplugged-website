@@ -370,6 +370,15 @@ section .content-wrapper {
    Modify as content requires.
    ========================================================================== */
 
+/** Tablet styles here **/
+@media only screen and (min-width: 768px) {
+}
+
+/** Desktop styles here **/
+
+@media only screen and (min-width: 1200px) {
+}
+
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
