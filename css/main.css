@@ -116,6 +116,7 @@ a {
 aside {
   background-color: #527158;
 }
+
 h2 {
   font-family: "Poppins", sans-serif;
   font-size: 1.875em;
@@ -151,7 +152,9 @@ address {
   width: 90%;
   margin: 50px 0;
 }
+
 /** -------- Base Header - Footer Style ----- **/
+
 header,
 footer {
   display: flex;
