@@ -484,15 +484,15 @@ section .content-wrapper {
 
   /* ================= FAQ PAGE ================= */
 
-  .faq .content-wrapper {
+  .faqs .content-wrapper {
     display: flex;
     justify-content: space-between;
   }
   .faq-content {
-    flex-basis: 40%;
+    flex-basis: 45%;
   }
 
-  .faq h2 {
+  .faqs h2 {
     width: 100%;
   }
 }
