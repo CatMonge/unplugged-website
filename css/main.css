@@ -96,6 +96,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
   text-align: left;
+  color: #e2e3ed;
 }
 
 ul,
@@ -111,12 +112,14 @@ a {
 h2 {
   font-family: "Poppins", sans-serif;
   font-size: 1.875em;
+  font-weight: 500;
 }
 
 h3,
 h4 {
   font-family: "Poppins", sans-serif;
   font-size: 1.125em;
+  font-weight: 500;
 }
 
 p {
