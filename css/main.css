@@ -457,8 +457,45 @@ section .content-wrapper {
 
   footer .copyright {
   }
-}
 
+  /* ================= ABOUT PAGE ================= */
+
+  .mission-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  .mission-content p {
+    width: 45%;
+  }
+
+  .contact-section .content-wrapper h2 {
+    width: 100%;
+  }
+
+  .contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  /* ================= FAQ PAGE ================= */
+
+  .faq .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .faq-content {
+    flex-basis: 40%;
+  }
+
+  .faq h2 {
+    width: 100%;
+  }
+}
 /** Desktop styles here **/
 
 @media only screen and (min-width: 1200px) {
