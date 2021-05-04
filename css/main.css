@@ -223,6 +223,18 @@ footer .social-icons {
 .copyright {
   margin: 20px 0;
 }
+
+.mission {
+  background-color: #527158;
+}
+
+.contact-section {
+  background-color: #2a423a;
+}
+
+.faqs {
+  background-color: #527158;
+}
 /** ================ Mobile Styles- Homepage ====================**/
 
 .hero-area {
