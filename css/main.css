@@ -139,9 +139,11 @@ p {
   background-color: #2a423a;
 }
 img {
+  width: 100%;
 }
 
 figure {
+  margin: 0;
 }
 
 address {
@@ -178,11 +180,18 @@ header nav {
   align-items: center;
   flex-flow: row wrap;
   width: 60%;
+  font-size: 1.125em;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+}
+
+header nav ul li {
+  font-size: 1.125em;
 }
 .header-divider {
   width: 100%;
@@ -236,18 +245,36 @@ footer .social-icons {
   background-color: #527158;
 }
 /** ================ Mobile Styles- Homepage ====================**/
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-flow: row wrap;
+}
+.hero-area {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-flow: row wrap;
+}
 
 .hero-area {
+  background-image: url("../img/header-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no repeat;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
 }
 
-.hero-area {
-  background-image: url(../img/header-image.jpg);
-}
-
-section .content-wrapper {
+.hero-area h1 {
+  font-size: 2.25em;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 aside {
@@ -270,7 +297,10 @@ aside .content-wrapper {
   flex-flow: column wrap;
 }
 .features {
-  background-image: url(../img/darken-bkgd-image.jpg);
+  background-image: url("../img/darken-bkgd-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -284,6 +314,7 @@ aside .content-wrapper {
 
 .features h2 {
   margin-bottom: 65px;
+  text-align: left;
 }
 
 .features p {
@@ -308,14 +339,16 @@ aside .content-wrapper {
 .reviews h2 {
   margin-bottom: 40px;
 }
+/**
 .reviews h3 {
-  width: 48%;
-  margin: 20px 0;
+   width: 48%;
+  margin: 20px 10px;
 }
-
+/**
+/**
 article img {
   width: 50%;
-}
+} **/
 
 /***** Possibly increase percentage when all mobile values are correct ******/
 
@@ -494,6 +527,7 @@ input[type="button"] {
   .hero-area .content-wrapper {
     display: flex;
     justify-content: flex-start;
+    align-items: start;
   }
   /* Aside Area */
 
@@ -526,10 +560,16 @@ input[type="button"] {
   .reviews article {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
   .reviews article div {
-    width: 50%;
+    /** width: 50%; **/
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-flow: column wrap;
+    margin: 0 10px;
   }
 
   /* Footer */
