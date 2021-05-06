@@ -646,7 +646,9 @@ input[type="button"] {
     align-items: flex-start;
     width: 100%;
   }
-
+  .map figure {
+    padding-bottom: 45.7%;
+  }
   /* ================= FAQ PAGE ================= */
 
   .faqs .content-wrapper {
@@ -715,6 +717,10 @@ input[type="button"] {
   .mission h2,
   .contact-section .content-wrapper h2 {
     width: 95%;
+  }
+
+  .map figure {
+    padding-bottom: 37.4%;
   }
 
   /** FAQ Page **/
