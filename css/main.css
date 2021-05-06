@@ -304,12 +304,6 @@ aside {
   flex-flow: row wrap;
 }
 
-aside .content-wrapper {
-}
-
-.form-description {
-}
-
 .signup-form {
   display: flex;
   justify-content: flex-start;
@@ -646,8 +640,6 @@ input[type="button"] {
   footer .social-icons {
     width: 12.5em;
     justify-content: space-between;
-  }
-  footer .copyright {
   }
 
   /* ================= ABOUT PAGE ================= */
